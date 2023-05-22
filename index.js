@@ -31,7 +31,7 @@ function changeBrightness()
         brightnessButton.innerHTML = "Világos mód";
     }
 
-    else
+    else if(brightnessButton.innerHTML == "Világos mód")
     {
         brightnessButton.innerHTML = "Sötét mód";
     }
