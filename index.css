@@ -1,0 +1,17 @@
+.doboz{
+    border: 3px solid black;
+    border-radius: 5px;
+    max-width: 60%;
+    float: left;
+}
+
+div.doboz div.kep img.rounded{
+    max-width: 40%;
+    float: left;
+}
+
+div.doboz div.szoveg{
+    float: right;
+    max-width: 59%;
+    text-align: justify;
+}
