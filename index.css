@@ -1,17 +1,76 @@
-.doboz{
+/*Egész body-ra vonatkozó beállítások*/
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*dark-mode :)*/
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+/*body vége*/
+
+/*Első doboz specifikus!!! Navbar miatt kell*/
+div#elsoDoboz{
+    margin-top: 90px;
+}
+/*Első doboz vége*/
+
+/*Bal oldali dobozok*/
+div.dobozBal{
     border: 3px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
     max-width: 60%;
     float: left;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
-div.doboz div.kep img.rounded{
+div.dobozBal div.kep img.rounded{
     max-width: 40%;
     float: left;
+    max-height: 6%;
+    background-color: white;
 }
 
-div.doboz div.szoveg{
+div.dobozBal div.szoveg{
     float: right;
     max-width: 59%;
     text-align: justify;
+    font-size: large;
 }
+
+div.dobozBal div.szoveg h3{
+    text-align: center;
+    padding-top: 5px;
+}
+/*Bal oldali dobozok vége*/
+
+/*Jobb oldali dobozok*/
+div.dobozJobb{
+    border: 3px solid black;
+    border-radius: 10px;
+    max-width: 60%;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+div.dobozJobb div.kep img.rounded{
+    max-width: 40%;
+    float: right;
+    background-color: white;
+}
+
+div.dobozJobb div.szoveg{
+    float: left;
+    max-width: 59%;
+    text-align: justify;
+    font-size: large;
+}
+
+div.dobozJobb div.szoveg h3{
+    text-align: center;
+    padding-top: 5px;
+}
+/*Jobb oldali dobozok vége*/

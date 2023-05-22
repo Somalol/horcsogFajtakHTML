@@ -1,0 +1,25 @@
+[
+    {
+        "neve" : "Szíriai aranyhörcsög",
+        "leiras" : "Ha tudjuk, hogy aranyhörcsögöt szeretnénk venni, akkor a Szíriai aranyhörcsög a legjobb választás. Egyrészt ez a legelterjettebb aranyhörcsög Magyarországon, másrészt könnyen megszelidíthetőek. Ezek a kis aranyosságok általában 4 évi élnek, körülbelül 17 centiméter hosszúra nőnek meg és átlagban 200 grammot nyomnak. Ez a hörcsögfajta egy nagyon energiateli állat, sokat szeret mozogni, és igényli az ingereket. Ezért is sokszor megpróbálhat kiszökni ketrecéből, hogy felfedezze a körülette lévő világot. Ajánlott kis hörcsöglabdát venni neki, néha kivenni az állatot ketrecéből és betenni a kis labdába, hogy szabadon felfedezhesse lakásunkat. A legnagyobb (és egyetlen) hátulütője ennek a fajtának, hogy nem nagyon tűr meg semmilyen más állatot, még a saját faját sem. Ha mégis párt szeretnénk mellé, akkor ajánlott már a két hörcsögöt kiskoruktól kezdve egy helyen tartani. Ha az egyik hörcsög a másikat csak 'felnőtt' korában ismeri meg, abból súlyos verekedések is lehetnek.",
+        "kepUrl" : "kepek/sziriaiAranyhorcsog2.png"
+    },
+
+    {
+        "neve" : "Dzsungáriai törpehörcsög",
+        "leiras" : "A Dzsungáriai törpehörcsög maximum 7-8 centiméteresre nőhetnek meg és körülbelül 50-60 grammot fognak nyomni. nem véletlen törpehörcsög, hisz láthatjuk, hogy jelentősen kisebb, mint egy Szíriai aranyhörcsög. Kicsi méretük miatt, nagyon könnyen kiszökhetnek ketrecükből, erre hatalmas figyelmet kell fordítsunk! A Szíriai aranyhörcsöggel ellentétben ez a fajta nem csak elviseli, hanem kifejezetten kedveli a társaságot. Nem számít nekik milyen fajta/hány darab hörcsöggel vannak összezárva, ők boldogok leszenk úgy is. Sajnos kiskorukban harapósak is lehetnek, de ha foglalkozunk velük eleget, akkor erről leszoktathatjuk őket.",
+        "kepUrl" : "kepek/dzsungaria2.png"
+    },
+
+    {
+        "neve" : "Roborovszki törpehörcsög",
+        "leiras" : "Ha egy igazán apró, de annál gyorsabb hörcsögre vágyunk, a Roborovszki törpehörcsög a megoldás. Nem nagyon nőnek nagyobbra, mint egy felnőtt ember hüvelykujja! Sajnos ez a faj, nem nagyon jön ki más fajokkal, ellenben a sajátjával. Továbbá egy fontos részlet, hogy ne vegyük nagyon kézbe őket, mert nem szeretik, akár meg is haraphatnak! Természetük kettős, egszerre félénkek és magabiztosak, de ez hogy is lehet? Ha biztonságban érzi magát, akkor nagyon kiváncsi tud lenni, mindent megnézeget, megszagolgat. Ellenben ha nem érzi magát biztonságban, akkor visszahúzódó a természete.",
+        "kepUrl" : "kepek/Roborovszki2.png"
+    },
+
+    {
+        "neve" : "Kínai csíkos törpehörcsög",
+        "leiras" : "Ha rövid időre szertnénk hörcsögöt, akkor a Kínai csíkos törpehörcsög a megfelelő választás. E fajtának rövid az élettartama, de nagyon gyorsan tudnak futni, majdnem olyan gyorsan, mint a Roborovszki törpehörcsög. A Kínai csíkos törpehörcsög neve egy kicsit megtévesztő, igen Kínából származik, és a hátán van egy barna csík, de egyáltalán nem törpe, akár 10 centiméteresre is megnőhetnek. Nap közben pihennek inkább, de éjszaka életre kelnek. Talán emiatt is van, hogy kicsit félénkebb rágcsálók, de addig nem harap, amíg nem provokáljuk őket. Habár Magyarországon ez a 4. legelterjedtebb fajta, mégis viszonylag ritka. Míg az előzöekből mindegyiket megtalálhatjuk (szinte) akármelyik állatboltban, ezt a fajtát csak a boltok körülbelül 60%-ban.",
+        "kepUrl" : "kepek/kinai3.png"
+    }
+]
