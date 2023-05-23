@@ -23,8 +23,19 @@ function changeBrightness()
     let dobozBal = document.getElementsByClassName("dobozBal");
     let dobozJobb = document.getElementsByClassName("dobozJobb");
     let brightnessButton = document.getElementById("brightnessSelector");
+    let form = document.getElementById("hatodik");
 
     element.classList.toggle("dark-mode");
+
+    if(form.style.backgroundColor == "black")
+    {
+        form.style.backgroundColor = "darkgray";
+    }
+
+    else if(form.style.backgroundColor == "darkgray")
+    {
+        form.style.backgroundColor = "black";
+    }
     
     if(brightnessButton.innerHTML == "Sötét mód")
     {
