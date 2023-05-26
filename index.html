@@ -35,23 +35,14 @@
           <a class="nav-link" href="#otodik">Kínai csíkos<br>törpehörcsög</a>
         </li>
         <li class="nav-item active">
+          <a class="nav-link" href="#hetedik">Hörcsög és patkány<br>közti különbség</a>
+        </li>
+        <li class="nav-item active">
           <a class="nav-link" href="#hatodik">Kő-Papír-Olló<br>játék</a>
         </li>
-        <li class="nav-item dropdown active">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <br>
-            Téma választó
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Fekete hörcsög</a>
-            <a class="dropdown-item" href="">Fehér hörcsög</a>
-            <a class="dropdown-item" href="#">Barna hörcsög</a>
-            <a class="dropdown-item" href="#">Szürke hörcsög</a>
-          </div>
-        </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <button class="btn btn-dark btn-outline-light my-2 my-sm-0" type="button" id="brightnessSelector">Sötét mód</button>
+      <form class="form-inline my-2 my-lg-0 mx-4">
+        <button class="btn btn-dark btn-outline-light my-2 my-sm-0" type="button"><img src="kepek/darkModeSwitch2.png" id="brightnessSelector"></button>
       </form>
     </div>
   </nav>
@@ -62,7 +53,7 @@
 
   <!--Első doboz-->
   <div class="row">
-    <div class="container-fluid elsoDoboz" id="elso">
+    <div class="container-fluid elsoDoboz " id="elso">
       <div class="kep">
           <img class="img-fluid rounded" src="kepek/hamster1.png" alt="Höri" title="Höri">
       </div>
@@ -86,7 +77,7 @@
 
   <!--Második doboz-->
   <div class="row">
-    <div class="container-fluid dobozJobb" id="masodik">
+    <div class="container-fluid dobozJobb " id="masodik">
       <div class="kep">
           <img class="img-fluid rounded adatKep" src="" alt="Höri" title="Höri">
       </div>
@@ -101,7 +92,7 @@
 
   <!--Harmadik doboz-->
   <div class="row">
-    <div class="container-fluid dobozBal" id="harmadik">
+    <div class="container-fluid dobozBal " id="harmadik">
       <div class="kep">
           <img class="img-fluid rounded adatKep" src="" alt="Höri" title="Höri">
       </div>
@@ -116,7 +107,7 @@
 
   <!--Negyedik doboz-->
   <div class="row">
-    <div class="container-fluid dobozJobb" id="negyedik">
+    <div class="container-fluid dobozJobb " id="negyedik">
       <div class="kep">
           <img class="img-fluid rounded adatKep" src="" alt="Höri" title="Höri">
       </div>
@@ -131,9 +122,9 @@
 
   <!--Ötödik doboz-->
   <div class="row">
-    <div class="container-fluid dobozBal" id="otodik">
+    <div class="container-fluid  dobozBal" id="otodik">
       <div class="kep">
-          <img class="img-fluid rounded adatKep" src="" alt="Höri" title="Höri">
+        <img class="img-fluid rounded adatKep" src="" alt="Höri" title="Höri">
       </div>
 
       <div class="szoveg">   
@@ -143,20 +134,34 @@
     </div>
   </div>
   <!--Ötödik doboz vége-->
-  
+
+  <!--Hatodik doboz-->
+  <div class="row">
+    <div class="container-fluid dobozJobb " id="hetedik">
+      <div class="kep">
+          <img class="img-fluid rounded adatKep" src="" alt="Patkány" title="Patkány">
+      </div>
+
+      <div class="szoveg">   
+        <h3 class="adath3"></h3>
+        <p class="adatMezo"></p>    
+      </div>
+    </div>
+  </div>
+  <!--Hatodik doboz vége-->
+
   <!--Fő dobozok vége-->
 
 
   <!--Kő-Papír-Olló-->
   <div class="row" id="Form">
-    <form id="hatodik">
-      <p id="score">Score (you - hamster): <span id="scores"></span></p>
+    <form id="hatodik" class="a">
+      <p id="score" class="mx-auto a">Pontok (Öné - Hörcsögé): <span id="scores">0 : 0</span></p>
       <img src="kepek/infoHamster.jpg" alt="Játékmester hörcsög" id="hamsterMaster" class="img-thumbnail rounded">
-      <img src="" alt="" id="hamsterEnemy">
       
       <br>
   
-      <p id="valasztasok">Te választásod: <span id="yourChoice"></span> Hörcsög választása: <span id="hamsterChoice"></span></p>
+      <p id="valasztasok">Ön választása: <span id="yourChoice">Semmi</span> Hörcsög választása: <span id="hamsterChoice">Semmi</span></p>
   
       <br>
   
@@ -164,6 +169,27 @@
       <input type="button" id="papir" value="Papír", onclick="scoreCalculate('Papír')">
       <input type="button" id="ollo" value="Olló", onclick="scoreCalculate('Olló')">
     </form>
+  </div>
+  <!--Kő-Papír-Olló vége-->
+
+  <!--Footer element-->
+  <div class="row">
+    <footer class="footer">
+      <h3>Felhasznált források:</h3>
+      <ul>
+        <li><a href="https://hu.wikipedia.org/wiki/Hörcsögfélék" target="_blank">Hörcsög wikipédia</a></li>
+        <li><a href="https://www.fressnapf.hu/a-nagy-horcsog-lexikon-ez-az-5-legnepszerubb-fajta-hazankban/" target="_blank">Hörcsög lexikon</a></li>
+        <li><a href="https://blatox.hu/patkany/" target="_blank">Patkányok</a></li>
+        <li><a href="https://www.w3schools.com/default.asp" target="_blank">W3Schools</a></li>
+        <li><a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/" target="_blank">Bootstrap 4.0 dokumentáció</a></li>
+      </ul>
+
+      <h3>Weboldal készítői:</h3>
+      <ol>
+        <li>Szammer Ferenc</li>
+        <li>Tivadari Soma</li>
+      </ol>
+    </footer>
   </div>
 
 

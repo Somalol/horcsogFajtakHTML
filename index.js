@@ -19,60 +19,15 @@ adatokFeltoltese();
 function changeBrightness()
 {
     let element = document.body;
-    let kepek = document.getElementsByClassName("rounded");
-    let dobozBal = document.getElementsByClassName("dobozBal");
-    let dobozJobb = document.getElementsByClassName("dobozJobb");
-    let brightnessButton = document.getElementById("brightnessSelector");
+    let osszesElement = document.querySelectorAll("*");
 
-    element.classList.toggle("dark-mode");
-    
-    if(brightnessButton.innerHTML == "Sötét mód")
+    element.classList.toggle("dark-modeBody");
+
+    for(let i of osszesElement)
     {
-        brightnessButton.innerHTML = "Világos mód";
-    }
-
-    else if(brightnessButton.innerHTML == "Világos mód")
-    {
-        brightnessButton.innerHTML = "Sötét mód";
-    }
-     
-
-    for(let i of kepek)
-    {
-        if(i.style.backgroundColor == "black")
+        if(i.classList.contains("a") || i.classList.contains("dobozBal") || i.classList.contains("dobozJobb") || i.classList.contains("elsoDoboz") || i.classList.contains("footer"))
         {
-            i.style.backgroundColor = "white";
-        }
-        
-        else
-        {
-            i.style.backgroundColor = "black";
-        }
-    }
-
-    for(let i of dobozBal)
-    {
-        if(i.style.borderColor == "darkgray")
-        {
-            i.style.borderColor = "black";
-        }
-
-        else
-        {
-            i.style.borderColor = "darkgray";
-        }
-    }
-
-    for(let i of dobozJobb)
-    {
-        if(i.style.borderColor == "darkgray")
-        {
-            i.style.borderColor = "black";
-        }
-
-        else
-        {
-            i.style.borderColor = "darkgray";
+            i.classList.toggle("dark-modeBorder");
         }
     }
 }

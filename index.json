@@ -21,5 +21,11 @@
         "neve" : "Kínai csíkos törpehörcsög",
         "leiras" : "Ha rövid időre szertnénk hörcsögöt, akkor a Kínai csíkos törpehörcsög a megfelelő választás. E fajtának rövid az élettartama, de nagyon gyorsan tudnak futni, majdnem olyan gyorsan, mint a Roborovszki törpehörcsög. A Kínai csíkos törpehörcsög neve egy kicsit megtévesztő, igen Kínából származik, és a hátán van egy barna csík, de egyáltalán nem törpe, akár 10 centiméteresre is megnőhetnek. Nap közben pihennek inkább, de éjszaka életre kelnek. Talán emiatt is van, hogy kicsit félénkebb rágcsálók, de addig nem harap, amíg nem provokáljuk őket. Habár Magyarországon ez a 4. legelterjedtebb fajta, mégis viszonylag ritka. Míg az előzöekből mindegyiket megtalálhatjuk (szinte) akármelyik állatboltban, ezt a fajtát csak a boltok körülbelül 60%-ban.",
         "kepUrl" : "kepek/kinai3.png"
+    },
+
+    {
+        "neve" : "Hörcsög és patkány közti különbség",
+        "leiras" : "Első és talán a legfontosabb különbség, hogy patkányokkal találkozhatunk nem várt helyeken. Míg a hörcsögöket kizárólag háziállatként tartjuk, úgy a patkányokat betolakodóként is fellelhetjük. Természetesen nem ennyi a különbség a két faj között. De akkor mi is még? Elsősorban a patkányok akár 40centiméterre is megnőhetnek, ami jelentősen nagyobb, mint bármilyen hörcsögfajta maximális testhossza. Emellett van még egy fontos különbség is, ami nem más mint a farkuk. Míg a hörcsögöknek szinte alig látható farkuk van, addig a patkányoknak akár 15cm-esre is megnőhet (képen látható).",
+        "kepUrl" : "kepek/patkany2.png"
     }
 ]

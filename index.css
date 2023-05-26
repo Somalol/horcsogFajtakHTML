@@ -1,18 +1,31 @@
-/*Egész body-ra vonatkozó beállítások*/
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-/*dark-mode :)*/
-.dark-mode{
+/*Dark-mode :)*/
+.dark-modeBody{
     background-color: black;
     color: white;
+}
+
+.dark-modeBorder{
+    border-color: darkgray !important;
+}
+/*Dark-mode :) vége*/
+
+
+/*Egész body-ra vonatkozó beállítások*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar{
     text-align: center;
 }
 /*Egész body vége*/
+
+
+/*Navbar formázása*/
+#brightnessSelector{
+    max-width: 60px;
+    max-height: 60px;
+}
 
 
 /*Első doboz specifikus!!! Navbar miatt kell*/
@@ -22,14 +35,13 @@ div.elsoDoboz{
     border-radius: 10px;
     max-width: 60%;
     float: left;
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
 div.elsoDoboz div.kep img.rounded{
     max-width: 40%;
     float: left;
     max-height: 6%;
-    background-color: white;
 }
 
 div.elsoDoboz div.szoveg{
@@ -54,7 +66,6 @@ div.dobozBal div.kep img.rounded{
     max-width: 40%;
     float: left;
     max-height: 6%;
-    background-color: white;
 }
 
 div.dobozBal div.szoveg{
@@ -83,7 +94,7 @@ div.dobozJobb{
 div.dobozJobb div.kep img.rounded{
     max-width: 40%;
     float: right;
-    background-color: white;
+    max-height: 6%;
 }
 
 div.dobozJobb div.szoveg{
@@ -106,6 +117,7 @@ form#hatodik{
     border-radius: 10px;
     width: 60%;
     margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -114,13 +126,13 @@ div#Form{
 }
 
 form p#score{
-    border: 2px dashed black;
+    border: 3px dashed black;
     border-radius: 5px;
     max-width: 30%;
     padding-left: 3px;
     margin-left: 7px;
     margin-top: 7px;
-    text-align: left;
+    text-align: center;
 }
 
 img#hamsterMaster{
@@ -131,4 +143,37 @@ img#hamsterMaster{
 input{
     margin-bottom: 7px;
     margin-right: 5px;
+}
+/*Form element vége*/
+
+/*Footer elem formázása*/
+footer{
+    border-top: 3px solid black;
+    margin-top: 30px;
+    width: 100%;
+}
+
+footer h3{
+    text-decoration: underline;
+    margin-left: 30px;
+}
+
+footer li{
+    margin-left: 40px;
+    list-style: disc outside url(kepek/szotyi2.png);
+}
+
+/*Még meg nem tekintett link*/
+footer li a:link{
+    color: blue;
+}
+
+/*Már meglátogatott link*/
+footer li a:visited{
+    color: blueviolet;
+}
+
+/*Ha éppen az egér a link fölött van*/
+footer li a:hover{
+    color: tomato;
 }
